@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "ES2015",
+    "module": "NodeNext",
+    "strict": false,
+    "types": ["node"],
+    "esModuleInterop": true,
+    "moduleResolution": "NodeNext",
+    "removeComments": true,
+    "noImplicitThis": true,
+    "resolveJsonModule": true,
+    "sourceMap": true
+  },
+  "include": [
+    "index.ts",
+    "clean-js.ts",
+    "nodejs/**/*.ts",
+    "src/**/*.ts",
+    "tests/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/temp",
+    "**/*.spec.ts"
+  ]
+}
